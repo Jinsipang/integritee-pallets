@@ -21,27 +21,27 @@ teeracle-primitives = { path = "../primitives/teeracle", default-features = fals
 substrate-fixed = { tag = "v0.5.9", default-features = false, git = "https://github.com/encointer/substrate-fixed.git" }
 
 # substrate
-frame-support = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.24" }
-frame-system = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.24" }
-sp-core = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.24" }
-sp-io = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.24"  }
-sp-runtime = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.24" }
-sp-std = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.24" }
+frame-support = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.25" }
+frame-system = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.25" }
+sp-core = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.25" }
+sp-io = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.25"  }
+sp-runtime = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.25" }
+sp-std = { default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.25" }
 
 # benchmarking
-frame-benchmarking = {default-features = false, optional = true, git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.24" }
+frame-benchmarking = {default-features = false, optional = true, git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.25" }
 hex-literal = { version = "0.3.2", optional = true }
 test-utils = { path = "../test-utils", optional = true, default-features = false }
-timestamp = { default-features = false, optional = true, git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.24", package = "pallet-timestamp" }
+timestamp = { default-features = false, optional = true, git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.25", package = "pallet-timestamp" }
 
 [dev-dependencies]
-externalities = { git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.24", package = "sp-externalities" }
-frame-benchmarking = { git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.24" }
+externalities = { git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.25", package = "sp-externalities" }
+frame-benchmarking = { git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.25" }
 hex-literal = "0.3.2"
-sp-keyring = { git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.24" }
-pallet-balances = { git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.24" }
+sp-keyring = { git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.25" }
+pallet-balances = { git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.25" }
 test-utils = { path = "../test-utils" }
-timestamp = { git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.24", package = "pallet-timestamp" }
+timestamp = { git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.25", package = "pallet-timestamp" }
 
 
 [features]
